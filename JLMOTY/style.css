@@ -1,0 +1,93 @@
+/* Styles pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('images/anime-moon-landscape.jpg'); /* Utilisez le chemin relatif approprié */
+    background-size: cover; /* Assure que l'image couvre tout l'arrière-plan */
+    background-position: center; /* Centre l'image dans l'arrière-plan */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column; /* Permet de centrer tout verticalement */
+}
+
+/* Styles pour le conteneur d'accueil */
+.accuille-container {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 30px;
+    width: 500px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Aligner les éléments en colonne */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.accuille-container h2 {
+    font-size: 2.5em; /* Taille plus grande pour le titre */
+    margin-bottom: 10px; /* Marge en bas pour espacer du texte suivant */
+}
+
+.accuille-container h3 {
+    font-size: 1.2em; /* Taille plus petite pour le texte */
+}
+
+/* Styles pour le conteneur de description */
+.description {
+    margin: 20px;
+}
+
+.description h3 {
+    font-size: 1.2em; /* Taille du texte */
+    margin-top: 20px; /* Marge en haut pour espacer du titre précédent */
+}
+
+/* Styles pour le conteneur de boutons */
+.button-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Aligner les boutons en colonne */
+    align-items: center;
+}
+
+/* Styles pour les liens des boutons */
+.button-link {
+    background-color: #ff4b4b;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 10px 0; /* Espacement vertical entre les boutons */
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    border: 2px solid red; /* Bordure rouge autour des boutons */
+    text-align: center;
+}
+
+/* Styles pour les boutons au survol */
+.button-link:hover {
+    transform: scale(1.05);
+    background-color: #ff1c1c;
+}
+
+/* Styles pour les boutons lorsqu'ils sont activés */
+.button-link:active {
+    transform: scale(0.98);
+    background-color: #e60000;
+}
+
+/* Styles pour les titres */
+h2, h3 {
+    color: #fff; /* Pour que le texte soit bien lisible sur fond bleu */
+}
